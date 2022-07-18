@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Last name</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Email"/>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPassword4">First Name</label>
+                <input type="text" class="form-control" id="firstname" placeholder="firstname"/>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputPassword4">Gender</label>
+                
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="male" value="Male" >
+                    <label class="form-check-label" for="exampleRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="female" value="Female">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Female
+                    </label>
+                  </div>
+
+            </div>
+
+            </div>
+            <div class="form-group ">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St"/>
+            </div>
+            <div></div>
+            
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="inputPassword4">Food</label>
+                    
+                    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="veg" value="veg" >
+                        <label class="form-check-label" for="exampleRadios1">
+                            veg
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="nonveg" value="non-veg">
+                        <label class="form-check-label" for="exampleRadios2">
+                            non-veg
+                        </label>
+                      </div>
+    
+                </div>
+              <div class="form-group col-md-6">
+                <label for="inputCity">country</label>
+                <input type="text" class="form-control" id="country"/>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputState">State</label>
+                <input type="text" class="form-control" id="State"/>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">pin <code></code></label>
+                <input type="text" class="form-control" id="pin"/>
+              </div>
+            </div>
+            
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-primary" value="reset">
+            </form>
+    </div>
+    
+    <div class="container ">
+        <!-- Table structure here -->
+        <table class="table table-dark " id="our-table">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>address</th>
+                    <th>pincode</th>
+                    <th>gender</th>
+                    <th>food</th>
+                    <th>state</th>
+                    <th>country</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+    
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <script>
+
+        </script>
+       
+  </body>
+</html>
